@@ -1,5 +1,12 @@
+main:stream streambackfire
+
+streambackfire:streambackfire.o vector2f.o vector3f.o
+	g++ -o streambackfire streambackfire.o vector3f.o vector2f.o
 stream:stream.o vector2f.o vector3f.o
 	g++ -o stream stream.o vector3f.o vector2f.o
+
+streambackfire.o:streambackfire.cpp streambackfire.h
+	g++ -c streambackfire.cpp -g
 stream.o:stream.cpp stream.h
 	g++ -c stream.cpp -g
 vector2f.o:vector2f.cpp vector2f.h
@@ -11,5 +18,5 @@ clean:
 	rm *.o
 	rm stream
 	rm data.txt
-run:stream
-	./stream
+run:streambackfire
+	./streambackfire
