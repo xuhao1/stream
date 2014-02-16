@@ -32,6 +32,12 @@ public:
 	{
 		return sqrt(x*x+y*y);
 	}
+	void norml()
+	{
+		double a=abs();
+		x/=a;
+		y/=a;
+	}
 };
 vector2f operator +(vector2f a,vector2f b);
 vector2f operator -(vector2f a,vector2f b);

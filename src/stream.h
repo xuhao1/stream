@@ -1,3 +1,4 @@
+//求解二值图像
 #ifndef __XUHAO__STREAM_H__
 #define __XUHAO__STREAM_H__
 #include "vector2f.h"
@@ -29,5 +30,18 @@ public:
 	std::vector<vector2f> mkstream();
 };
 
+class streamxy:public  stream
+{
+public:
+	streamxy():
+		stream()
+	{
+	}
+
+};
+class streamxyfunctional: public stream
+{
+	
+};
 
 #endif

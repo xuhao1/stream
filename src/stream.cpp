@@ -2,34 +2,42 @@
 
 double stream::func(double x,double y)
 {
-	return sin(x+y+0.1);
+	//return 0;
+	return sin(y*3);
 }
 void stream::relaxline(std::vector<vector2f>& line)
 {
 	vector3f fp,fn,fk;
 	std::vector<vector2f> dline(line.size());
-	vector2f n,f;
+	vector2f f,nl;
+	vector3f np;
 	for(int i=1;i<line.size()-1;i++)
 	{
-		n.x=(line[i-1].y-line[i+1].y);
-		n.y=(line[i+1].x-line[i-1].x);
+		nl.x=(line[i-1].y-line[i+1].y);
+		nl.y=(line[i+1].x-line[i-1].x);
+
+		np.x=-(func(line[i].x+nl.abs()/20,line[i].y)-func(line[i].x-nl.abs()/20,line[i].y));
+		np.y=-(func(line[i].x,line[i].y+nl.abs()/20)-func(line[i].x,line[i].y-nl.abs()/20));
+		np.z=nl.abs()/10;
+		np.norml();
+
 		fp.x=line[i-1].x-line[i].x;		
 		fp.y=line[i-1].y-line[i].y;		
 		fp.z=func(line[i-1].x,line[i-1].y)-func(line[i].x,line[i].y);
-		fp.norml();
 
 		fn.x=line[i+1].x-line[i].x;		
 		fn.y=line[i+1].y-line[i].y;		
 		fn.z=func(line[i+1].x,line[i+1].y)-func(line[i].x,line[i].y);
-		fn.norml();
+		
 
 		fk=fp+fn;
-		//std::cout<<"fk "<<fk.x<<" "<<fk.y<<" "<<fk.z<<"\n";
-		fk=fk*(line[i+1]-line[i-1] ).abs()/5;
+
+		fk=fk-(fk*np)*np;
+		fk=fk*(line[i+1]-line[i-1] ).abs();
+
 		f.x=fk.x;
 		f.y=fk.y;
-
-		dline[i]=(f*n)*n;
+		dline[i]=f;
 	}
 	for(int i=1;i<line.size()-1;i++)
 	{
@@ -41,11 +49,11 @@ void stream::relaxline(std::vector<vector2f>& line)
 }		
 std::vector<vector2f> stream::mkstream()
 {
-	std::vector<vector2f>  stream0(11);
-	for(int i=0;i<11;i++)
+	std::vector<vector2f>  stream0(1001);
+	for(int i=0;i<1001;i++)
 	{
-		stream0[i].x=double(i)/10;
-		stream0[i].y=stream0[i].x*stream0[i].x;
+		stream0[i].x=double(i)/1000;
+		stream0[i].y=(stream0[i].x*stream0[i].x);
 	}
 	return stream0;
 }
@@ -59,15 +67,15 @@ int main()
 {
 	stream s0;
 	printf("Hello,World\n");
-	for(int i=0;i<1000;i++)
+	for(int i=0;i<100000;i++)
 	{
 		s0.relaxline(s0.line);
-		if(i%10==0)
+		if(i%1000==0)
 			s0.printline();
 	}
 	std::ofstream of("line.txt");
 	for(int i=0;i<s0.line.size();i++)
 	{	
-		of<<s0.line[i].x<<" "<<s0.line[i].y<<"\n";
+		of<<s0.line[i].x<<" "<<s0.line[i].y<<" "<<s0.func(s0.line[i].x,s0.line[i].y)<<"\n";
 	}
 }

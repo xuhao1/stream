@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.1.10)  6 FEB 2014 21:11
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.1.10)  10 FEB 2014 20:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -458,34 +458,29 @@ LaTeX Info: Redefining \upshape on input line 2102.
 . <->"华文细黑/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
 .................................................
-. fontspec info: "no-scripts"
+. fontspec info: "no-font-shape"
 . 
-. Font 华文仿宋 does not contain any OpenType `Script' information.
+. Could not resolve font 华文细黑/B (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font 华文仿宋/B (it probably doesn't exist).
+. Could not resolve font 华文细黑/I (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font 华文仿宋/I (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font 华文仿宋/BI (it probably doesn't exist).
+. Could not resolve font 华文细黑/BI (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family '华文仿宋(1)' created for font '华文仿宋' with options [].
+. Font family '华文细黑(1)' created for font '华文细黑' with options [].
 . 
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"华文仿宋/AAT:"
+. <->"华文细黑/ICU:script=latn;language=DFLT;"
 .................................................
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
@@ -847,16 +842,16 @@ Package ifluatex Info: LuaTeX not detected.
 
 Package polyglossia Warning: File gloss-.ldf does not exist!
 (polyglossia)                I will nevertheless try to use hyphenation pattern
-s for . on input line 17.
+s for . on input line 16.
 
 
 Package polyglossia Warning: \setlocalhyphenmin useless for unknown language  o
-n input line 17.
+n input line 16.
 
 
 Package polyglossia Warning: No hyphenation patterns were loaded for `
 (polyglossia)                I will use \language=\l@nohyphenation instead on i
-nput line 17.
+nput line 16.
 
 \l@ = a dialect from \language\l@nohyphenation 
 *************************************************
@@ -873,26 +868,26 @@ nput line 17.
 (./doc.aux)
 \openout1 = `doc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 18.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 17.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 17.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -900,99 +895,147 @@ LaTeX Font Info:    ... okay on input line 18.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 18.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 18.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 18.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 18.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 18.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 18.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 18.
-LaTeX Font Info:    Redeclaring math accent \check on input line 18.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 18.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 18.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 18.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 18.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 17.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 17.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 17.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 17.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 17.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 17.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 17.
+LaTeX Font Info:    Redeclaring math accent \check on input line 17.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 17.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 17.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 17.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 17.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 18.
+(Font)              `operators' in the math version `normal' on input line 17.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/华文仿宋(0)/m/n on input line 18.
+(Font)                  OT1/cmr/m/n --> EU1/华文仿宋(0)/m/n on input line 17.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 18.
+(Font)              `operators' in the math version `bold' on input line 17.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/华文仿宋(0)/m/n on input line 18.
+(Font)                  OT1/cmr/bx/n --> EU1/华文仿宋(0)/m/n on input line 17.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/华文仿宋(0)/m/n --> EU1/华文仿宋(0)/m/n on input line 18.
+(Font)                  EU1/华文仿宋(0)/m/n --> EU1/华文仿宋(0)/m/n on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  EU1/华文仿宋(0)/m/n --> EU1/华文仿宋(0)/m/n on input line 18.
+(Font)                  EU1/华文仿宋(0)/m/n --> EU1/华文仿宋(0)/m/n on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/华文仿宋(0)/m/it on input line 18.
+(Font)                  OT1/cmr/m/it --> EU1/华文仿宋(0)/m/it on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/华文仿宋(0)/bx/n on input line 18.
+(Font)                  OT1/cmr/bx/n --> EU1/华文仿宋(0)/bx/n on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/华文细黑(0)/m/n on input line 18.
+(Font)                  OT1/cmss/m/n --> EU1/华文细黑(0)/m/n on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/华文仿宋(1)/m/n on input line 18.
+(Font)                  OT1/cmtt/m/n --> EU1/华文细黑(1)/m/n on input line 17.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/华文仿宋(0)/m/n --> EU1/华文仿宋(0)/bx/n on input line 18.
+(Font)                  EU1/华文仿宋(0)/m/n --> EU1/华文仿宋(0)/bx/n on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  EU1/华文仿宋(0)/m/n --> EU1/华文仿宋(0)/bx/n on input line 18.
+(Font)                  EU1/华文仿宋(0)/m/n --> EU1/华文仿宋(0)/bx/n on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU1/华文仿宋(0)/bx/it on input line 18.
+(Font)                  OT1/cmr/bx/it --> EU1/华文仿宋(0)/bx/it on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/华文细黑(0)/bx/n on input line 18.
+(Font)                  OT1/cmss/bx/n --> EU1/华文细黑(0)/bx/n on input line 17.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/华文仿宋(1)/bx/n on input line 18.
+(Font)                  OT1/cmtt/m/n --> EU1/华文细黑(1)/bx/n on input line 17.
 \c@lstlisting=\count144
 
 
 LaTeX Font Warning: Font shape `EU1/华文细黑(0)/bx/n' undefined
-(Font)              using `EU1/华文细黑(0)/m/n' instead on input line 23.
+(Font)              using `EU1/华文细黑(0)/m/n' instead on input line 22.
 
 
 LaTeX Font Warning: Font shape `EU1/华文细黑(0)/m/sl' undefined
-(Font)              using `EU1/华文细黑(0)/m/n' instead on input line 23.
+(Font)              using `EU1/华文细黑(0)/m/n' instead on input line 22.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 23.
+(Font)              <14.4> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 23.
+(Font)              <7> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 30.
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
-
- []
-
+(Font)              <5> on input line 29.
 [1
 
 
 ]
+File: ./spfa0.jpg Graphic file (type QTm)
+ <use  "./spfa0.jpg" > [2]
+File: ./spfa1.jpg Graphic file (type QTm)
+ <use  "./spfa1.jpg" > [3]
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+
+ []
+
 File: ./Image001.jpg Graphic file (type QTm)
- <use  "./Image001.jpg" > [2] [3] (./doc.aux)
+<use  "./Image001.jpg" > [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
+
+ []
+
+[7] (./doc.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17153 strings out of 493938
- 378261 string characters out of 6148857
- 381468 words of memory out of 5000000
- 20300 multiletter control sequences out of 15000+600000
+ 17170 strings out of 493938
+ 378852 string characters out of 6148857
+ 384571 words of memory out of 5000000
+ 20315 multiletter control sequences out of 15000+600000
  4713 words of font info for 37 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 46i,7n,38p,815b,248s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,8n,38p,815b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on doc.pdf (3 pages).
+Output written on doc.pdf (7 pages).
