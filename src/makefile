@@ -19,4 +19,4 @@ clean:
 	rm stream
 	rm data.txt
 run:streambackfire
-	./streambackfire
+	./stream

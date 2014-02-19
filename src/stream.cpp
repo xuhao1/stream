@@ -2,8 +2,7 @@
 
 double stream::func(double x,double y)
 {
-	//return 0;
-	return sin(y*3);
+	return sin(y*3+6*x);
 }
 void stream::relaxline(std::vector<vector2f>& line)
 {

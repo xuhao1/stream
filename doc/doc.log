@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.1.10)  16 FEB 2014 16:17
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.1.10)  20 FEB 2014 01:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -965,7 +965,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 32.
 [1
 
 
@@ -974,68 +974,61 @@ File: ./spfa0.jpg Graphic file (type QTm)
  <use  "./spfa0.jpg" > [2]
 File: ./spfa1.jpg Graphic file (type QTm)
  <use  "./spfa1.jpg" > [3]
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
 
  []
 
 File: ./Image001.jpg Graphic file (type QTm)
 <use  "./Image001.jpg" > [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
+File: /Users/xuhao/Desktop/funal.pdf Graphic file (type QTm)
+<use  "/Users/xuhao/Desktop/funal.pdf" >
+File: /Users/xuhao/Desktop/funal2.jpg Graphic file (type QTm)
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+<use  "/Users/xuhao/Desktop/funal2.jpg" >
+
+LaTeX Warning: Float too large for page by 136.99971pt on input line 144.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
-
- []
-
-[7] (./doc.aux)
+[7] [8] (./doc.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17170 strings out of 493938
- 378852 string characters out of 6148857
- 384571 words of memory out of 5000000
- 20315 multiletter control sequences out of 15000+600000
- 4713 words of font info for 37 fonts, out of 8000000 for 9000
+ 17173 strings out of 493938
+ 378830 string characters out of 6148857
+ 387571 words of memory out of 5000000
+ 20314 multiletter control sequences out of 15000+600000
+ 4721 words of font info for 38 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 46i,8n,38p,815b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,8n,38p,815b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on doc.pdf (7 pages).
+Output written on doc.pdf (8 pages).
